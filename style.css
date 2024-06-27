@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;  /* Set a pleasant font */
+    margin: 0;  /* Remove default body margin */
+    padding: 20px;  /* Add some padding for aesthetics */
+  }
+  
+  h1 {
+    text-align: center;  /* Center align the heading */
+    margin-bottom: 20px;  /* Add some space below the heading */
+  }
+  
+  form {
+    display: flex;  /* Arrange form elements horizontally */
+    flex-direction: column;  /* Stack them vertically */
+    width: 400px;  /* Set a width for the form */
+    margin: 0 auto;  /* Center the form horizontally */
+    padding: 20px;  /* Add padding inside the form */
+    border: 1px solid #ddd;  /* Add a thin border */
+    border-radius: 5px;  /* Round the corners slightly */
+  }
+  
+  label {
+    display: block;  /* Make labels display on their own line */
+    margin-bottom: 5px;  /* Add space below labels */
+    font-weight: bold;  /* Make labels slightly bolder */
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 95%;  /* Make input fields full width */
+    padding: 10px;  /* Add padding inside input fields */
+    border: 1px solid #ccc;  /* Add a thin border to input fields */
+    border-radius: 3px;  /* Round the corners of input fields */
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;  /* Green color for the button */
+    color: white;  /* White text color */
+    padding: 10px 20px;  /* Add padding to the button */
+    border: none;  /* Remove default button border */
+    border-radius: 3px;  /* Round the corners of the button */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;  /* Darker green on hover */
+  }
+  
